@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Olivy Chatbot</title>
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  </body>
+</html>
+<style>
+            /* Sidebar Styles */
+            .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #000116;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 20px;
+            color: #fff;
+        }
+
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            font-size: 18px;
+            line-height: 28px;
+            padding: 12px 0;
+            padding-left: 30px;
+        }
+        .sidebar h3 {
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            font-size: 24px;
+            line-height: 28px;
+            padding: 20px 0;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+
+
+        }
+        .sidebar a:hover {
+            background-color: #060830;
+            color: #fdd430;
+
+
+        }
+
+
+    /* Content Styles */
+    .chat-container {
+        margin-left: 0;
+        padding: 40px;
+        transition: 0.5s;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+            /* Button Styles */
+            .openbtn {
+            font-size: 30px;
+            cursor: pointer;
+            position: fixed;
+            top: 10px;
+            left: 10px;
+        }
+
+        /* Close Button Styles */
+        .closebtn {
+            font-size: 24px;
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    body, html {
+      height: 100%;
+    }
+
+    .messages-box {
+      flex: 1;
+      overflow-y: auto;
+    }
+
+    .messages-list {
+      padding-left: 0;
+    }
+
+    .message {
+      margin-bottom: 15px;
+      list-style: none;
+    }
+
+    .message-text {
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .sent {
+            background-color: #ffffff;
+            margin: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+            align-self: flex-end;
+    }
+
+    .received {
+        background-color: #0001163b;
+            margin: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+            align-self: flex-end;
+    }
+
+    .message-form {
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      padding: 10px;
+      background-color: #f8f9fa;
+    }
+
+    .message-input {
+      flex: 1;
+      border-radius: 0;
+      border-right: none;
+    }
+
+    .btn-send {
+      border-radius: 0;
+    }
+
+
+  </style>
+
+
+    <div class="openbtn" onclick="toggleNav()">&#9776;</div>
+
+    <!-- Sidebar -->
+    <div id="mySidebar" class="sidebar">
+        <h3>Olivy <br> AI Chatbot</h3>
+        <a href="/video_feed_page">detection</a>
+        <a href="/map">disease spread</a>
+        <a href="/weather">weather</a>
+
+        <div class="closebtn" onclick="closeNav()">&#10006;</div>
+    </div>
+
+
+ <!--<form class= "content" >-->
+<div class="chat-container">
+  <div class="card flex-grow-1">
+    <div class="card-header bg-primary text-white">Chat</div>
+    <div class="card-header bg-primary text-white"><b>Welcome !</b>   
+
+    <div class="card-body messages-box">
+      
+      <ul class="list-unstyled messages-list">
+        
+
+            <li class="message sent">
+          <div class="message-text">
+            <div class="message-sender">
+              <b>You</b>
+            </div>
+            <div class="message-content">
+              {{message}}
+            </div>
+          </div>
+        </li>
+
+        <li class="message received">
+          <div class="message-text">
+            <div class="message-sender">
+              <b>AI Chatbot</b>
+            </div>
+            <div class="message-content">
+              {{response}}
+            </div>
+          </div>
+        </li>
+
+
+        
+      </ul>
+      
+    </div>
+    <br><br>
+    <br><br>
+    <br><br>
+  </div>
+  <form class="message-form">
+    {%csrf_token%}
+    <div class="input-group">
+      <input type="text" class="form-control message-input" placeholder="Type your message...">
+      <div class="input-group-append">
+        <button type="submit" class="btn btn-primary btn-send">Send</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+</div>
+    <!-- JavaScript to Control Sidebar -->
+    <script>
+        function toggleNav() {
+            var sidebar = document.getElementById("mySidebar");
+            var content = document.querySelector(".chat-container");
+
+            if (sidebar.style.width === "250px") {
+                sidebar.style.width = "0";
+                content.style.marginLeft = "0";
+            } else {
+                sidebar.style.width = "250px";
+                content.style.marginLeft = "250px";
+            }
+        }
+
+        function closeNav() {
+            var sidebar = document.getElementById("mySidebar");
+            var content = document.querySelector(".chat-container");
+
+            sidebar.style.width = "0";
+            content.style.marginLeft = "0";
+        }
+    </script>
+
+
+<script>
+  const messagesList = document.querySelector('.messages-list');
+  const messageForm = document.querySelector('.message-form');
+  const messageInput = document.querySelector('.message-input');
+
+  messageForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const message = messageInput.value.trim();
+    if (message.length === 0) {
+      return;
+    }
+
+    const messageItem = document.createElement('li');
+    messageItem.classList.add('message', 'sent');
+    messageItem.innerHTML = `
+        <div class="message-text">
+            <div class="message-sender">
+                <b>You</b>
+            </div>
+            <div class="message-content">
+                ${message}
+            </div>
+        </div>`;
+    messagesList.appendChild(messageItem);
+
+    messageInput.value = '';
+
+    fetch('', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({
+        'csrfmiddlewaretoken': document.querySelector('[name=csrfmiddlewaretoken]').value,
+        'message': message
+      })
+    })
+      .then(response => response.json())
+      .then(data => {
+        const response = data.response;
+        const messageItem = document.createElement('li');
+        messageItem.classList.add('message', 'received');
+        messageItem.innerHTML = `
+        <div class="message-text">
+            <div class="message-sender">
+              <b>AI Chatbot</b>
+            </div>
+            <div class="message-content">
+                ${response}
+            </div>
+        </div>
+          `;
+        messagesList.appendChild(messageItem);
+        window.scrollTo(0, document.body.scrollHeight);
+      });
+  });
+
+</script>

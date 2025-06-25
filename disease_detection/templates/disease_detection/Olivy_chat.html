@@ -1,0 +1,497 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Assistant</title>
+    <link rel="icon" href="{% static 'images/olivy_logo.png' %}" type="image/x-icon">
+
+    <style>
+                /* Sidebar Styles */
+    @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+    @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+    /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
+    * {
+        box-sizing: border-box ;
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+
+    body {
+        margin-top: 10%; 
+
+        min-height: 100vh;
+        color: #c7c7c7;
+        font-size: 14px;
+        font-weight: normal;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    a {
+        color: #000016;
+        text-decoration: none !important;
+        outline: none !important;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        letter-spacing: 0;
+        font-weight: normal;
+        position: relative;
+        padding: 0 0 10px 0;
+        font-weight: normal;
+        line-height: normal;
+        color: #000016;
+        margin: 0
+    }
+
+    h1 {
+        font-size: 24px
+    }
+
+    h2 {
+        font-size: 22px
+    }
+
+    h3 {
+        font-size: 18px
+
+    }
+
+    h4 {
+        font-size: 16px
+    }
+
+    h5 {
+        font-size: 14px
+    }
+
+    h6 {
+        font-size: 13px
+    }
+
+    *,
+    *::after,
+    *::before {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    h1 a,
+    h2 a,
+    h3 a,
+    h4 a,
+    h5 a,
+    h6 a {
+        color: #000016;
+        text-decoration: none!important;
+        opacity: 1
+    }
+
+
+    p {
+        margin: 0px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: .75px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+        /**-- heading section --**/
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 15%;
+        padding: 20px 100px;
+        padding: 0px 200px 0px ;
+        background-color: #fff;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    }
+
+    .logo {
+        font-size: 2rem;
+        color:#000016;
+        text-transform: uppercase;
+        letter-spacing: 2px; 
+        text-align: left;
+        display: flex;
+        padding-top: 5px;
+
+    }
+    .logo h1{
+      font-size: 2rem !important;
+    }
+    .logo img{
+      display: flex;
+      border-radius: 50%;
+      width: 45px;
+      height: 40px;
+      padding-right: 6px;
+      margin-top: 3px;
+    }
+ 
+ 
+ 
+.navbar{
+  min-width: 50%;
+}
+    .navbar a {
+        margin-left: 40px ;
+        color: #000016;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .nav-link:focus,
+    .nav-link:hover {
+     color: #c4a736;
+  }
+    .nav-link1{
+        color: #c4a736!important;
+
+    }
+
+
+
+
+        .content {
+          overflow: hidden;
+            min-height: 100vh;
+            display: block;
+            align-items: center;
+
+            padding: 0px;
+            transition: 0.5s;
+        }
+
+
+
+
+
+
+    .centre {
+      margin: 0;
+      margin-top: -50px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      height: 80vh;  
+      flex-direction: column;
+
+      }
+      .centre img{
+        height: 20%;
+        width: auto;
+        display: block;
+        padding-bottom: 20px;
+      }
+      .centre a{
+        display: block;
+        font-size: 1rem;
+      }
+ 
+    .chat-container {
+        margin: 0px 250px 0px;
+
+        transition: 0.5s;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+   /* heeeeeeeeeeeeeeeeeerrrrrrrrrreeeeeeeeee  the messages */
+    .message-content {
+      color: #000016;
+      padding-left: 5%;
+
+    }
+    .message-sender {
+      display: flex;
+
+    }
+    .sender{
+        padding-top: 6px;
+
+    }
+    .message-sender img{
+      display: block;
+      border-radius: 50%;
+      height: 5%;
+      width: 5%;
+      padding-right: 5px;
+
+    }
+
+    .message-sender b {
+      color: #000016;
+    }
+
+
+
+    .messages-box {
+      flex: 1;
+      overflow-y: auto;
+    }
+
+    .messages-list {
+      padding-left: 0;
+    }
+
+    .message {
+      margin-bottom: 15px;
+      list-style: none;
+    }
+
+    .message-text {
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .sent {
+      background-color: transparent;
+      margin: 20px;
+
+      align-self: flex-end;
+    }
+
+    .received {
+        background-color: transparent;
+        margin: 20px;
+
+        align-self: flex-end;
+    }
+
+    .message-form {
+      width: 100%;
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      padding: 20px;
+      background-color: white;
+      padding-left: 0px;
+      padding-right: 0px;
+
+
+    }
+
+    .input-group{
+      padding: 10px;
+      display: flex;
+      width: 100%;
+      padding-left: 20%;
+      padding-right: 20%;
+
+      background-color: transparent;
+
+    }
+    
+    .message-input {
+      width: 80%;
+      height: 45px;
+      padding: 12px;
+      border-radius: 12px;
+      border: 1.5px solid lightgrey;
+      outline: none;
+      transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+      box-shadow: 0px 0px 20px -18px;
+
+    }
+
+    .message-input:hover {
+      border: 2px solid lightgrey;
+      box-shadow: 0px 0px 20px -17px;
+    }
+
+    .message-input:active {
+      transform: scale(0.95);
+    }
+
+    .message-input:focus {
+      border: 2px solid #000016;
+    }
+    .input-group-append{
+      width: 18%;
+      margin-left: 2%;
+
+    }
+    .btn-send {
+      color: #fff;
+      border-radius: 12px;
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+      background-color: #000016f3;
+      border: 1.5px solid lightgrey;
+      text-transform: uppercase;
+      font-weight: 300;
+    }
+    /*
+*/
+  </style>
+
+</head>
+<body>
+  <header>
+  <div class="header">
+
+          <div class="logo">
+            <img src="{% static 'images/olivy_logo.png' %}" alt="logo"></img>
+          <h1>Olivy</h1>
+
+          </div>
+          <nav class="navbar">
+                      <a class="nav-link" href="/video_feed_page">Detection</a>
+                      <a class="nav-link" href="/map">My Map</a>
+                      <a class="nav-link" href="/weather">Weather</a>
+                      <a class="nav-link1" href="/Olivy_chat">AI Chat</a>
+          </nav>
+  </div>
+</header>
+
+
+<div class= "content" >
+<div class="chat-container">
+  <div class="card flex-grow-1">
+
+    <div class="centre">
+      <img src="{% static 'images/ecology.png' %}" alt="logo"></img>
+      <a>How can I help you today?</a>   
+    </div>
+
+    <div class="card-body messages-box">
+      
+      <ul class="list-unstyled messages-list">
+        
+
+            <li class="message sent">
+          <div class="message-text">
+            <div class="message-sender">
+            </div>
+            <div class="message-content">
+            </div>
+          </div>
+        </li>
+
+        <li class="message received">
+          <div class="message-text">
+            <div class="message-sender">
+            </div>
+            <div class="message-content">
+              {{response}}
+            </div>
+          </div>
+        </li>
+
+
+        
+      </ul>
+      
+    </div>
+    <br><br>
+    <br><br>
+    <br><br>
+  </div>
+ </div>
+  <form class="message-form">
+    {%csrf_token%}
+    <div class="input-group">
+      <input placeholder="Ask Olivy..." type="text" class="form-control message-input">
+
+      <div class="input-group-append">
+        <button type="submit" class="btn btn-primary btn-send">Send</button>
+      </div>
+    </div>
+  </form>
+
+
+</div>
+
+<script>
+  const messagesList = document.querySelector('.messages-list');
+  const messageForm = document.querySelector('.message-form');
+  const messageInput = document.querySelector('.message-input');
+
+  messageForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const message = messageInput.value.trim();
+    if (message.length === 0) {
+      return;
+    }
+
+    const messageItem = document.createElement('li');
+    messageItem.classList.add('message', 'sent');
+    messageItem.innerHTML = `
+        <div class="message-text">
+            <div class="message-sender">
+                <img src="{% static 'images/me.jpg' %}"alt="user photo">
+                <b class="sender">You</b>
+
+            </div>
+            <div class="message-content">
+                ${message}
+            </div>
+        </div>`;
+    messagesList.appendChild(messageItem);
+    window.scrollTo(0, document.body.scrollHeight);
+
+    messageInput.value = '';
+
+    fetch('', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({
+        'csrfmiddlewaretoken': document.querySelector('[name=csrfmiddlewaretoken]').value,
+        'message': message
+      })
+    })
+      .then(response => response.json())
+      .then(data => {
+        const response = data.response;
+        const messageItem = document.createElement('li');
+        messageItem.classList.add('message', 'received');
+        messageItem.innerHTML = `
+        <div class="message-text">
+            <div class="message-sender">
+              <img src="{% static 'images/ecology.png' %}" alt="olivy photo" >
+              <b class="sender">Olivy</b>
+            </div>
+            <div class="message-content">
+                ${response}
+            </div>
+        </div>
+          `;
+        messagesList.appendChild(messageItem);
+        window.scrollTo(0, document.body.scrollHeight);
+      });
+  });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+  /* Styles for the user input section */
+body{
+    background: #000016;
+
+}
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 172vh;
+    font-family: "Texta Alt W00 Regular";
+
+}
+.user-input {
+    font-family: "Texta Alt W00 Regular";
+    text-align: center;
+
+
+}
+.user-input h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: "Texta Alt W00 Regular";
+    margin: 36px;
+    
+}
+.input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  }
+  
+
+
+.user-input p {
+    font-weight: normal;
+    font-family: "Texta Alt W00 Regular";
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #e9e9e9;
+    letter-spacing: 0.5px;
+}
+.user-input h3{
+    letter-spacing: 2px;
+    color: rgb(250, 250, 250);
+    text-align: center;
+    margin: -8px;
+    font-family: "Texta Alt W00 Regular";
+
+}
+.user-input input {
+    display: block;
+    margin-bottom: 25px;
+    padding:13px;
+    width: 100%;
+    font-family: "Texta Alt W00 Regular";
+
+
+}
+
+.uploadfile{
+    display: block;
+    margin-bottom: 20px;
+    padding:13px;
+    width: 100%;
+    z-index: 1;
+    color: transparent;
+}
+#image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; /* Make the button transparent */
+    cursor: pointer;}
+
+    a.butt{
+    border: none;
+    color: #f2f2f2;
+    background-color:#a56bd4; 
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: "Texta Alt W00 Regular";
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    margin: 20px;
+
+   }
+   
+   button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+   .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32vh;
+  }
+  .image-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+
+  }
+  .image-upload img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+ 
+  .image-upload label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+
+
+/* Styles for the 3D tree visualization */
+.tree-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.tree {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: #008000; /* Green color for the tree */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.tree-label {
+    width: 100%;
+    text-align: center;
+}
+
+/* Styles for the tree history label */
+.tree-history {
+    margin: 20px;
+    text-align: center;
+    display: none;
+}

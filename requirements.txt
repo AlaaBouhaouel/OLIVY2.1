@@ -1,0 +1,17 @@
+#pip install -r requirements.txt
+#python==3.10.3
+channels==4.1.0
+Django==5.0.6
+numpy
+opencv-python
+tensorflow==2.15
+Pillow
+matplotlib
+statistics
+geopy
+meteostat
+nltk
+keras==2.15
+geopy
+email
+django_sse

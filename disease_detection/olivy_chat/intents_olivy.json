@@ -1,0 +1,503 @@
+{
+    "intents": [
+        {
+            "tag": "Greeting",
+            "patterns": [
+              "Hello!",
+              "Hi there!",
+              "Good day!",
+              "Greetings!",
+              "Hey!",
+              "Hi, how are you?",
+              "Hello, chatbot!",
+              "Hey, how's it going?",
+              "Hi, what's up?",
+              "Good to see you!",
+              "Hi, how can I help you today?",
+              "Hello, is anyone there?",
+              "Hey, what's happening?",
+              "Hi, I hope you're doing well.",
+              "Greetings, chatbot!",
+              "Hey, any updates?",
+              "Hi, nice to meet you!",
+              "Hello, how's your day?",
+              "Hey, what's on your mind?",
+              "Hi, it's been a while!",
+              "heyyyy",
+              "hola",
+              "hii",
+              "hallo",
+              "haa",
+              "hee",
+              "hayy",
+              "whatsup",
+              "whattsappp",
+              "aselemaaaa",
+              "aselam",
+              "Hi, what's up?"
+
+            ],
+            "responses": [
+              "Hello! How can I assist you today?",
+              "Hi there! I'm here to help. What can I do for you?",
+              "Good day! If you have any questions, feel free to ask.",
+              "Greetings! How may I be of service?",
+              "Hey! I'm ready to assist you. What do you need help with?",
+              "Hello, great to have you! How can I support you?",
+              "Hey, how's it going? I'm here to help with any inquiries.",
+              "Hi, what's up? Let me know if there's anything I can do for you.",
+              "Good to see you! How can I assist you today?",
+              "Hello! Is there something specific you'd like assistance with?",
+              "Hi, I hope you're doing well. How can I assist you?",
+              "Greetings! If there's anything you'd like to discuss, I'm here.",
+              "Hello, how's your day going? If you have questions, feel free to ask.",
+              "Hi, it's been a while! How can I help you today?"
+            ]
+          },  
+          {
+            "tag": "ChatbotIntroduction",
+            "patterns": [
+              "Who are you?",
+              "What are you?",
+              "Tell me about yourself.",
+              "What's your name?",
+              "Who's behind this chat?",
+              "Introduce yourself.",
+              "What can you tell me about you?",
+              "Are you a human or a bot?",
+              "Explain your purpose.",
+              "Who created you?",
+              "What's your identity?",
+              "What is this chat?",
+              "Who designed you?",
+              "What's your purpose?",
+              "Can you introduce yourself?",
+              "Tell me more about you.",
+              "Who programmed you?",
+              "What are you here for?",
+              "Who made you?",
+              "What's your name and purpose?"
+            ],
+            "responses": [
+              "Hello! I'm Olivy, a friendly chatbot designed to assist you with any questions related to olive trees.",
+              "Hi there! I'm Olivy, a chatbot here to help you with information about olive trees.",
+              "Greetings! I'm Olivy, your helpful chatbot focused on answering queries about olive trees.",
+              "Nice to meet you! I'm Olivy, a chatbot with a focus on providing information about olive trees.",
+              "Hello! I'm Olivy, your virtual assistant ready to answer your questions about olive trees.",
+              "Hey! I'm Olivy, a chatbot designed to assist you with anything related to olive trees.",
+              "Hi, I'm Olivy, your friendly chatbot here to help you with olive tree-related inquiries.",
+              "Greetings! I'm Olivy, a chatbot programmed to provide information about olive trees.",
+              "Hello! I'm Olivy, an AI chatbot created to assist and provide information about olive trees.",
+              "Hi there! I'm Olivy, your virtual assistant specializing in olive tree-related information.",
+              "Hey! I'm Olivy, a chatbot designed to help you with any questions about olive trees.",
+              "Hello! I'm Olivy, a friendly chatbot programmed to assist you with olive tree-related queries.",
+              "Hi there! I'm Olivy, a chatbot ready to help you with any information about olive trees.",
+              "Greetings! I'm Olivy, an AI chatbot with a focus on providing answers related to olive trees.",
+              "Hello! I'm Olivy, your virtual assistant equipped to assist you with olive tree-related questions.",
+              "Hey! I'm Olivy, a chatbot created to provide information and help with olive tree-related inquiries.",
+              "Hi there! I'm Olivy, your friendly chatbot designed to answer questions about olive trees.",
+              "Greetings! I'm Olivy, an AI chatbot programmed to assist you with olive tree-related queries.",
+              "Hello! I'm Olivy, a chatbot ready to provide information and help with olive tree-related questions.",
+              "Hi there! I'm Olivy, your virtual assistant specializing in olive tree-related information."
+            ]
+          },       
+            {
+            "tag": "WateringInstructions",
+            "patterns": [
+              "How should I water my olive trees?",
+              "Can you give me watering tips for olive trees?",
+              "What's the best way to water olive trees?",
+              "Tell me about watering olive trees.",
+              "How often should I water my olive trees?",
+              "What are the watering requirements for olive trees?",
+              "Can you provide guidance on watering olive trees?",
+              "How much water do olive trees need?",
+              "What's the proper watering technique for olive trees?",
+              "Tell me the watering schedule for olive trees.",
+              "How do I water my olive trees effectively?",
+              "Any advice on watering my olive trees?",
+              "What's the recommended watering frequency for olive trees?",
+              "How can I ensure proper watering for my olive trees?",
+              "Tell me about watering practices for olive trees.",
+              "How do I determine the water needs of my olive trees?",
+              "What's the best time to water olive trees?",
+              "Can you share tips on watering olive trees in different seasons?",
+              "How much water should I provide to young olive trees?",
+              "How do I prevent overwatering my olive trees?"
+            ],
+            "responses": [
+              "To water your olive trees effectively, ensure a deep watering once a week, allowing the soil to dry between watering sessions.",
+              "Watering olive trees deeply and less frequently is key. Aim for deep watering sessions rather than frequent shallow watering.",
+              "For optimal olive tree care, water the trees deeply, reaching the root zone. Allow the soil to dry out between watering to prevent waterlogged conditions.",
+              "Water your olive trees by providing a thorough soaking, allowing the top few inches of soil to dry out before the next watering session.",
+              "The key to watering olive trees is deep and infrequent watering. Ensure the soil is well-drained to prevent waterlogging.",
+              "When watering olive trees, focus on deep irrigation to encourage deep root growth. Watering once a week is generally sufficient.",
+              "For healthy olive trees, water deeply and infrequently. Monitor soil moisture and adjust watering based on environmental conditions.",
+              "Olive trees prefer deep, infrequent watering. Adjust the frequency based on weather conditions and soil moisture levels.",
+              "The watering needs of olive trees vary, but a general guideline is to water deeply every 7-14 days, adjusting based on local climate and soil conditions.",
+              "To water olive trees effectively, provide a deep soak, ensuring water reaches the root zone. Adjust watering frequency based on environmental factors.",
+              "For olive tree watering, focus on deep irrigation, allowing the soil to dry out between watering sessions. Adjust based on weather conditions.",
+              "To water olive trees, focus on deep watering to encourage deep root development. Adjust the frequency based on the weather and soil moisture.",
+              "Deep watering is essential for olive trees. Ensure the soil dries out between watering sessions to prevent waterlogged conditions.",
+              "For optimal olive tree health, water deeply, allowing the soil to dry between watering. Adjust based on climate and soil conditions.",
+              "To water olive trees effectively, provide deep irrigation and allow the soil to dry out between watering sessions. Adjust based on environmental factors.",
+              "Olive trees benefit from deep and infrequent watering. Adjust the watering schedule based on local climate and soil moisture levels.",
+              "For successful olive tree watering, ensure a deep soak and monitor soil moisture levels. Adjust the watering frequency based on environmental conditions.",
+              "To water olive trees properly, focus on deep irrigation, allowing the soil to dry between watering sessions. Adjust based on climate and soil conditions.",
+              "For young olive trees, water regularly to establish their root system. Adjust the watering schedule as the trees mature.",
+              "To prevent overwatering, monitor soil moisture and adjust the watering schedule accordingly. Olive trees prefer well-drained soil."
+            ]
+          },       
+          {
+            "tag": "GeneralInquiries",
+            "patterns": [
+              "Tell me more about olive tree care.",
+              "What are some best practices for maintaining healthy olive trees?",
+              "Do you have any tips for overall olive orchard management?",
+              "How can I ensure the general well-being of my olive trees?",
+              "Give me some general advice on caring for olive trees.",
+              "What should I know about keeping my olive orchard healthy?",
+              "Share some insights on maintaining a thriving olive grove.",
+              "I'm looking for general information on olive tree care.",
+              "Can you provide tips for successful olive tree cultivation?",
+              "What are the key considerations for overall olive tree health?"
+            ],
+            "responses": [
+              "Olive tree care involves regular watering, proper pruning, and attention to soil health. Ensure well-drained soil and monitor for pests and diseases.",
+              "Maintaining healthy olive trees requires proper watering, annual pruning, and regular monitoring for pests and diseases. Consider soil enrichment for optimal growth.",
+              "For a thriving olive orchard, focus on proper irrigation, timely pruning, and soil enrichment. Monitor for diseases and pests to ensure overall tree health.",
+              "General well-being of olive trees involves a balanced approach to watering, nutrient management, and pest control. Regular observation is key to early issue detection.",
+              "To care for your olive trees, prioritize proper watering, annual pruning, and soil health. Stay vigilant for signs of pests or diseases to maintain overall tree health.",
+              "Maintaining a healthy olive grove involves practices such as regular watering, appropriate fertilization, and monitoring for any signs of stress, pests, or diseases.",
+              "For successful olive orchard management, focus on consistent watering, seasonal pruning, and maintaining optimal soil conditions. Monitor for any issues affecting tree health.",
+              "If you're looking for general information on olive tree care, consider factors such as proper watering, nutrient balance, and vigilance against potential threats like pests or diseases.",
+              "Successful olive tree cultivation requires attention to watering schedules, soil enrichment, and pest management. Regular care practices contribute to overall tree health.",
+              "Key considerations for overall olive tree health include proper watering, fertilization, and monitoring for any signs of stress, pests, or diseases."
+            ]
+          },
+{
+    "tag": "FertilizationTips",
+    "patterns": [
+      "What's the best way to fertilize my olive trees?",
+      "Can you provide guidance on olive tree fertilization?",
+      "How often should I fertilize my olive trees?",
+      "Tell me about the recommended fertilization techniques for olive trees.",
+      "What nutrients do olive trees need, and how can I provide them?",
+      "Share some tips on fertilizing olive trees during different seasons.",
+      "How do I choose the right fertilizer for my olive trees?",
+      "Give me advice on organic fertilization for olive trees.",
+      "Should I fertilize young olive trees differently than mature ones?",
+      "What signs indicate that my olive trees need fertilization?"
+    ],
+    "responses": [
+      "For optimal fertilization, use a balanced fertilizer with a higher nitrogen content in the spring and a balanced or higher potassium formulation later in the season.",
+      "Guidance on olive tree fertilization includes applying a balanced fertilizer in spring, adjusting based on soil tests. Avoid excessive nitrogen to prevent vegetative growth.",
+      "Fertilize olive trees in the spring with a balanced fertilizer, adjusting based on soil nutrient levels. Avoid excessive fertilization to prevent nutrient imbalances.",
+      "Recommended fertilization techniques for olive trees involve applying a balanced fertilizer in early spring and monitoring soil nutrient levels for adjustments.",
+      "Olive trees benefit from fertilizers high in nitrogen during the growing season and potassium in late summer. Regular soil testing guides appropriate nutrient levels.",
+      "During different seasons, consider applying a balanced fertilizer to olive trees, adjusting based on soil nutrient levels and tree growth stages.",
+      "Choose a fertilizer with a balanced N-P-K ratio for olive trees. Adjust based on soil test results, and consider organic options for sustainable fertilization.",
+      "Organic fertilization for olive trees involves using compost, well-rotted manure, or organic fertilizers. Apply in spring, and consider mulching for soil health.",
+      "Fertilize young olive trees with a balanced fertilizer, adjusting based on soil nutrient levels and tree growth. Gradually transition to a mature tree fertilization plan.",
+      "Signs that olive trees need fertilization include slow growth, yellowing leaves, and poor fruit development. Soil testing helps determine nutrient deficiencies."
+    ]
+  },
+{
+    "tag": "HarvestingGuidelines",
+    "patterns": [
+      "When and how should I harvest olives?",
+      "Give me tips on harvesting olives from my trees.",
+      "What's the best time to pick olives for harvesting?",
+      "Tell me about the harvesting process for olive trees.",
+      "How do I know when olives are ready for harvest?",
+      "Share some insights on the proper timing for olive tree harvesting.",
+      "What tools do I need for harvesting olives?",
+      "Can you provide guidelines on hand harvesting vs. mechanical harvesting?",
+      "Give me advice on post-harvest care for olives.",
+      "How can I ensure a successful and efficient olive harvest?"
+    ],
+    "responses": [
+      "Harvest olives when they reach the green to purple stage. Use handpicking or gentle shaking for best results. Avoid overripe olives for optimal quality.",
+      "Tips on harvesting olives include picking when they are fully colored but not overripe. Handpick or use vibration machines for efficient harvesting.",
+      "The best time to pick olives for harvesting is when they have reached their full color but are not overripe. Harvesting in the morning provides better quality olives.",
+      "The harvesting process for olive trees involves picking when olives are fully developed in color but still firm. Handle harvested olives carefully to avoid bruising.",
+      "Know when olives are ready for harvest by observing color changes. Harvest when olives are plump and have reached their desired color, typically green or black.",
+      "Proper timing for olive tree harvesting is crucial. Harvest olives when they have reached the desired color and size, ensuring optimal oil or table fruit quality.",
+      "For harvesting olives, use handpicking for small orchards or vibrating machines for larger ones. Harvest olives into well-ventilated containers for quality preservation.",
+      "Guidelines on hand harvesting vs. mechanical harvesting depend on orchard size. Hand harvesting is suitable for small orchards, while machines are efficient for large ones.",
+      "After harvesting olives, follow post-harvest care by sorting and cleaning the fruit. Prompt processing into oil or curing ensures quality and flavor preservation.",
+      "Ensure a successful olive harvest by timing it correctly, using appropriate harvesting methods, and promptly processing the olives for desired end products."
+    ]
+  },
+{
+    "tag": "ClimateConsiderations",
+    "patterns": [
+      "What climate conditions do olive trees prefer?",
+      "How do I protect my olive trees during extreme weather?",
+      "Can you provide insights on climate considerations for olive tree cultivation?",
+      "Tell me about the ideal climate for growing olive trees.",
+      "How can I help my olive trees cope with hot weather?",
+      "Give me tips on managing olive trees during cold weather.",
+      "What climate factors should I be aware of for successful olive tree cultivation?",
+      "How does temperature affect olive tree growth and fruiting?",
+      "Are there specific climate requirements for different olive tree varieties?",
+      "Tell me about the impact of rainfall on olive tree health."
+    ],
+    "responses": [
+      "Olive trees prefer a Mediterranean climate with hot, dry summers and mild, wet winters. Provide well-drained soil and protect against extreme weather conditions.",
+      "Protect olive trees during extreme weather by providing adequate water during hot periods and shielding from frost during cold spells. Mulching helps regulate soil temperature.",
+      "Insights on climate considerations for olive tree cultivation include selecting well-drained sites, managing irrigation based on weather, and protecting against frost.",
+      "The ideal climate for growing olive trees is a Mediterranean climate with warm, dry summers and cool, wet winters. Well-drained soil is crucial for optimal growth.",
+      "Help olive trees cope with hot weather by ensuring proper irrigation, providing shade during extreme heat, and avoiding stress factors such as water deficits.",
+      "Tips for managing olive trees during cold weather include avoiding excessive watering, providing frost protection, and mulching to regulate soil temperature.",
+      "Climate factors for successful olive tree cultivation involve selecting appropriate varieties, managing irrigation based on weather patterns, and protecting against extreme conditions.",
+      "Temperature affects olive tree growth and fruiting. Extreme cold can damage blossoms, impacting fruit production, while heat stress may affect fruit quality.",
+      "Different olive tree varieties may have specific climate preferences. Consider the climate requirements of the specific variety you are cultivating for optimal growth.",
+      "The impact of rainfall on olive tree health is significant. Monitor soil moisture levels, especially during the growing season, to prevent waterlogged conditions."
+    ]
+  },  
+        {
+            "tag": "OlivePeacockDisease",
+            "patterns": [
+              "Describe the symptoms of Olive Peacock Disease.",
+              "what is Olive Peacock Disease?",
+              "Can you tell me how to recognize Olive Peacock Disease?",
+              "What Could it be Olive Peacock Disease",
+              "Tell me about the visual appearance of Olive Peacock Disease.",
+              "Are there any specific markings on the leaves for Olive Peacock Disease?",
+              "I'm concerned about my olive tree leaves. What should I look for if it's Olive Peacock Disease?",
+              "What are the early indicators of Olive Peacock Disease in olive trees?",
+              "My olive plant has deformities in the leaves. Could it be related to Olive Peacock Disease?",
+              "How can I distinguish Olive Peacock Disease from other olive tree issues?",
+              "List the common signs of Olive Peacock Disease.",
+              "Can you provide details about the leaf patterns affected by Olive Peacock Disease?",
+              "Tell me about the color variations associated with Olive Peacock Disease."
+            ],
+            "responses": [
+              "Olive Peacock Disease is often characterized by circular spots on the leaves resembling peacock feathers. These spots are typically brown or black with a yellow halo.",
+              "Common signs of Olive Peacock Disease include circular spots on the leaves, often resembling the feathers of a peacock.",
+              "Olive Peacock Disease can lead to damage in olive trees, particularly in the form of circular spots on the leaves and potential leaf deformation.",
+              "Olive Peacock Disease is a condition affecting olive trees, characterized by distinct symptoms that resemble the vibrant colors of a peacock.",
+              "Olive Peacock Disease refers to a specific ailment in olive trees, showcasing symptoms reminiscent of the colorful plumage of a peacock.",
+              "Olive Peacock Disease is a term used to describe a unique disease in olive trees, presenting symptoms that bear a resemblance to the striking colors seen in peacocks.",
+              "Olive Peacock Diseaser is a particular affliction in olive trees, marked by symptoms that mirror the beautiful hues found in peacock feathers.",
+              "The Olive Peacock Disease denotes a specific malady affecting olive trees, with symptoms that echo the vibrant patterns seen in peacocks.",
+              "Olive Peacock Disease is a condition affecting olive trees, and its name is derived from the vivid symptoms that share similarities with the plumage of peacocks."
+            ]
+          }
+          ,
+          {
+            "tag": "AculusDisease",
+            "patterns": [
+              "Describe the symptoms of Aculus Disease.",
+              "what is Aculus Disease?",
+              "Can you tell me how to recognize Aculus Disease?",
+              "What Could it be Aculus Disease",
+              "Tell me about the visual appearance of Aculus Disease.",
+              "Are there any specific markings on the leaves for Aculus Disease?",
+              "I'm concerned about my olive tree leaves. What should I look for if it's Aculus Disease?",
+              "What are the early indicators of Aculus Disease in olive trees?",
+              "My olive plant has deformities in the leaves. Could it be related to Aculus Disease?",
+              "How can I distinguish Aculus Disease from other olive tree issues?",
+              "List the common signs of Aculus Disease.",
+              "Can you provide details about the leaf patterns affected by Aculus Disease?",
+              "Tell me about the color variations associated with Aculus Disease."
+            ],
+            "responses": [
+              "Aculus Disease is a plant affliction caused by the Aculus mite. It typically originates in agricultural settings and manifests through symptoms such as leaf discoloration and distortion.",
+
+              "Aculus Disease is a plant malady resulting from infestation by the Aculus mite. It is commonly found in orchards and vineyards, and symptoms include leaf deformation and discoloration.",
+              
+              "Aculus Disease is a plant condition induced by the Aculus mite. Originating in gardens and crops, the disease is characterized by symptoms like distorted leaves and a change in color.",
+              
+              "Aculus Disease, caused by the Aculus mite, affects various plants in agricultural landscapes. Recognizable symptoms encompass leaf abnormalities and a noticeable change in color.",
+              
+              "Aculus Disease, initiated by the Aculus mite, impacts plants in diverse environments. Symptoms involve the distortion of leaves and alterations in their natural coloration.",
+              
+              "Aculus Disease is a botanical issue triggered by the Aculus mite, prevalent in fields and gardens. Its symptoms include distorted leaves and a visible change in color.",
+              
+              "Aculus Disease, resulting from the Aculus mite, targets plants in both cultivated and natural settings. Symptoms commonly observed include distorted leaves and abnormal coloring.",
+              
+              "Aculus Disease is a plant anomaly caused by the Aculus mite, prevalent in agricultural landscapes. Recognizable symptoms encompass leaf deformation and a shift in coloration.",
+              "Originating from the Aculus mite, Aculus Disease affects plants in various ecosystems. Symptoms include noticeable leaf distortion and changes in color.",
+              "Aculus Disease, attributed to the Aculus mite, is commonly found in plantations and gardens. Key symptoms include distorted leaves and alterations in color, indicating the presence of the disease."          
+              ] 
+            }
+              
+            ,
+        {
+            "tag": "SymptomIdentification_AculusDisease",
+            "patterns": [
+              " My olive leaves became small rust-colored .",
+              "The leaves of my olive trees are turning yellow. What does this indicate?",
+              "I'm seeing a silverish appearance on the leaves of my olive trees. Any idea what disease it could be?",
+              "My olive tree leaves have started to drop, and I noticed small tiny rusted leaves",
+              "Are there specific signs of leaf discoloration that I should look for in my olive trees?",
+              "The overall health of my olive trees seems to be declining, and I suspect it could be a disease. What are the symptoms of small spots on olive leaves?",
+              "I see a fine webbing on the leaves of my olive trees. Is this a symptom of the problem?",
+              "I'm concerned about the health of my olive trees. The leaves have tiny brown leaves. Any insights?",
+              "Are there any preventative measures I can take to avoid this issue in my olive orchard?",
+              "there's discoloration. Is this a concern?",
+              "I've noticed unusual markings on the leaves of my olive trees. Could it be related to the problem?",
+              "My olive tree leaves are covered with a powdery substance. Is this a symptom of the issue?",
+              "The leaves on my olive trees have a mottled appearance. Is this a sign of the problem?"
+            ],
+        "responses": [
+              "Considering the symptoms you've outlined, it appears that your plants might be affected by Aculus Disease. This condition, commonly linked to the Aculus mite, manifests through leaf distortion and noticeable changes in coloration. For more accurate diagnosis, use the direct detection powered by AI.",
+
+              "From the symptoms you've described, it appears that Aculus Disease could be affecting your plants. This issue, typically associated with the Aculus mite, can result in distinctive rust-colored spots on the leaves. For more accurate diagnosis, use the direct detection powered by AI.",
+
+              "Based on your description of the symptoms, it seems your plants might be experiencing Aculus Disease. This particular condition, often caused by the Aculus mite, is characterized by leaf abnormalities and discoloration. For more accurate diagnosis, use the direct detection powered by AI.",
+
+              "The symptoms you described suggest the possibility of Aculus Disease affecting your plants. This condition, frequently connected with the Aculus mite, can cause small rust-colored spots and leaf distortion. For more accurate diagnosis, use the direct detection powered by AI.",
+
+              "Given the symptoms you've provided, it's likely that your plants are grappling with Aculus Disease. This plant affliction, commonly associated with the Aculus mite, often leads to the development of rust-colored spots on the leaves. For more accurate diagnosis, use the direct detection powered by AI."        ]
+      }
+          ,
+          {
+            "tag": "SymptomIdentification_OlivePeacockDisease",
+            "patterns": [
+              "My olive trees have circular spots on the leaves and leaf deformation. What could be causing this?",
+              "The leaves of my olive trees show circular spots and deformation. Any idea about the possible disease?",
+              "circular spots and leaf deformation in my olive trees?",
+              "I've noticed circular spots on my olive tree leaves. What might be the cause?",
+              "What's the likely issue if my olive tree leaves have circular spots and deformities?",
+              "circular spots on olive tree leaves. Any insights into the possible cause?",
+              "Are circular spots on olive tree leaves a sign of a specific disease?",
+              "My olive tree leaves have circular spots and deformation. What could be affecting them?",
+              "If olive tree leaves have circular spots, what might be the reason?",
+              "Symptoms in my olive trees include circular spots on the leaves. Any idea about the cause?",
+              "I need help identifying a disease. Olive tree leaves have circular spots and deformities.",
+              "The symptoms include circular spots on olive tree leaves. Any thoughts on the potential cause?",
+              "Circular spots and leaf deformation on my olive trees. Does that indicate a specific issue?",
+              "What disease causes circular spots on olive tree leaves? Mine seem to be affected.",
+              "Identify the issue based on symptoms: circular spots and leaf deformation in olive trees.",
+              "Circular spots and deformation in olive tree leaves. What's the possible diagnosis?",
+              "My olive trees exhibit circular spots. Any insights into the potential cause?",
+              "Circular spots on olive tree leaves and leaf deformation. What's the diagnosis?",
+              "What could be causing circular spots and leaf deformation on my olive trees?",
+              "i see some weird spots on the leaf of my olive tree. Any ideas?"
+            ],
+            "responses": [
+              "Based on the symptoms you described, it seems like your olive trees may be facing Olive Peacock Spot Disease. This condition, often associated with the presence of specific fungi, can lead to the formation of distinctive spots on the leaves. For more accurate diagnosis, use the direct detection powered by AI.",
+
+              "Considering the symptoms you've outlined, it appears that Olive Peacock Spot Disease could be affecting your olive trees. This issue, typically caused by certain fungi, manifests through the development of spotted patterns on the leaves. For more accurate diagnosis, use the direct detection powered by AI.",
+              
+              "From the symptoms you've described, it appears that Olive Peacock Spot Disease might be affecting your olive trees. This particular condition, often linked to specific fungi, is characterized by the appearance of noticeable spots on the leaves. For more accurate diagnosis, use the direct detection powered by AI.",
+              
+              "Based on your description of the symptoms, it seems your olive trees might be experiencing Olive Peacock Spot Disease. This disease, frequently caused by specific fungi, results in the formation of distinctive spots on the leaves. For more accurate diagnosis, use the direct detection powered by AI.",
+              
+              "Given the symptoms you've provided, it suggests the possibility of Olive Peacock Spot Disease affecting your olive trees. This plant affliction, commonly associated with specific fungi, often leads to the development of spotted patterns on the leaves. For more accurate diagnosis, use the direct detection powered by AI."
+              ]
+            },
+            {
+              "tag": "lough",
+              "patterns": [
+                "hhhhhhh",
+                "hhh",
+                "hahaha"
+              ],
+              "responses": [
+                "What is so funny?"
+              ]
+            },
+          {
+            "tag": "Goodbye",
+            "patterns": [
+              "Goodbye!",
+              "See you later!",
+              "Farewell!",
+              "Until next time!",
+              "Take care!",
+              "byyyy",
+              "bye bye!",
+              "Bye for now!",
+              "Catch you later!",
+              "Till we meet again!",
+              "Goodbye and have a great day!",
+              "I'll talk to you soon!",
+              "Time to say farewell!",
+              "Wishing you a wonderful day!",
+              "Until we chat again!",
+              "Goodbye, my friend!",
+              "It's time to say goodbye!",
+              "Wishing you all the best!",
+              "Take it easy!",
+              "Goodbye and stay well!"
+            ],
+            "responses": [
+              "Goodbye! Take care and have a wonderful day!",
+              "See you later! If you have more questions, feel free to ask anytime.",
+              "Farewell! It was a pleasure assisting you. Have a great day!",
+              "Until next time! If you ever need help, don't hesitate to reach out.",
+              "Take care! If there's anything else I can do for you, let me know.",
+              "So long! Wishing you all the best in your endeavors.",
+              "Adieu! If you return with more questions, I'll be here to help.",
+              "Bye for now! Stay safe and have a fantastic day!",
+              "Catch you later! If you ever want to chat, I'll be around.",
+              "Till we meet again! If you need assistance in the future, don't hesitate to ask.",
+              "Goodbye and have a great day! If you have more inquiries, feel free to reach out.",
+              "I'll talk to you soon! Take care until our next conversation.",
+              "Time to say farewell! If there's anything else I can do, let me know.",
+              "Wishing you a wonderful day! Goodbye and take care!",
+              "Until we chat again! If you have further questions, feel free to drop by.",
+              "Goodbye, my friend! If you ever need assistance, I'm just a message away.",
+              "It's time to say goodbye! If there's anything else on your mind, let me know.",
+              "Wishing you all the best! If you have more questions in the future, feel free to ask.",
+              "Take it easy! Goodbye and stay well!",
+              "Goodbye and have a fantastic day! If you ever need support, don't hesitate to contact me."
+            ]
+          },
+          {
+            "tag": "ThankYou",
+            "patterns": [
+              "Thank you for your help!",
+              "I appreciate your assistance.",
+              "Thanks a lot for the information!",
+              "Thank you, that was helpful.",
+              "Thanks for guiding me through this.",
+              "I'm grateful for your support.",
+              "Thank you for the quick response.",
+              "Thanks for your time and expertise.",
+              "I want to express my gratitude.",
+              "Thank you so much!",
+              "I'm thankful for your guidance.",
+              "Thanks for the valuable insights.",
+              "I appreciate your quick reply.",
+              "Thank you for being so helpful.",
+              "I'm grateful for your assistance.",
+              "Thanks a million!",
+              "Thank you for your excellent service.",
+              "I want to thank you for your advice.",
+              "Thanks for going above and beyond.",
+              "Thank you for your patience and help."
+            ],
+            "responses": [
+              "You're welcome! I'm glad I could assist you.",
+              "It was my pleasure to help. If you have more questions, feel free to ask!",
+              "You're very welcome. If you need further assistance, don't hesitate to reach out.",
+              "I'm happy to hear that you found the information helpful. Let me know if there's anything else I can do for you.",
+              "You're welcome! If there's anything else you need, feel free to let me know.",
+              "I'm glad I could be of help. If you have more questions in the future, don't hesitate to ask.",
+              "You're welcome! If you have any more inquiries, feel free to reach out at any time.",
+              "I'm pleased that I could assist you. If there's anything else you need, feel free to ask.",
+              "You're welcome! If you ever need assistance again, don't hesitate to get in touch.",
+              "You're very welcome. If you have additional questions or need further assistance, feel free to ask.",
+              "I'm glad I could provide guidance. If there's anything else on your mind, feel free to reach out.",
+              "You're welcome! If you have more inquiries or need help in the future, I'm here for you.",
+              "I'm pleased to hear that you found the information valuable. If there's anything else you'd like to know, feel free to ask.",
+              "You're welcome! If you have any more questions or need assistance, don't hesitate to reach out.",
+              "I'm happy to have been of assistance. If you ever need help again, feel free to reach out to me.",
+              "You're welcome! If there's anything else I can do for you, please let me know.",
+              "I'm glad I could help. If you have additional questions or concerns, feel free to ask.",
+              "You're very welcome. If there's anything else you'd like to know, feel free to reach out.",
+              "You're welcome! If you ever need assistance again, don't hesitate to get in touch.",
+              "I'm pleased to have been able to assist you. If there's anything else you need, feel free to ask."
+            ]
+          }
+          
+          
+          
+    ]
+  }
+  

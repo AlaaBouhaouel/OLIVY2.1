@@ -1,0 +1,27 @@
+((Random info abt one of the diseases: Information about peacock disease: Caused by the fungus 'Spilocaea Oleaginea' 
+Infection Acuras in the fall: 50° f- 80° f (10° C- 26° C) 
+The applications of disease treatment for this disease: 
+Late October 
+With copper sulfate and calcium hydroxide with water.))
+
+SPEECH (to be edited) :
+
+Hello this is ala from Tunisia which is also called the land of olives , this plant is one of the most widely grown fruit not only in Tunisia but in the whole world, and by the way lately we've been ranked top 1 for the best olive oil quality in the world .
+
+However ,the olive oil production in the world has been steadily decreasing the last few years , and that is mainly due to plant diseases , the huge knowledge gap in this sector because  especially  in developing countries 
+Well the impact of plant diseases on Olive crop yield is estimated 20% losses sometimes Farmers lose Almost 100% their crop you to burn diseases, which means a lot of money wasted. 
+Which is understandable because of the low percentage of ppl who have actually persuaded an  agricultural academic carer 
+Actually 31% of these people feel Victim when buying their Olive crops, realizing later that the trees are diseased and unhealthy
+
+And that's what made me start thinking about a way to make it as easy as possible to get to this kind of information and that's when OLIVY was born. 
+So OLIVy is a platform that uses artificial intelligence deep learning and machine learning to detect  diseases using the image of the leaf by simply seeing the symptoms, the user can use this webcam and simply show the leaf and that is done using 2 Ai models developped it with large amount of data, the first one will detect the shape of the olive tree leaf using object detection, and the second will classify the disease of the leaf of course using image classification convolutional neural network with the three classes for the moment: healthy, olive peacock and Olive aculos, these are the most spread and the most dangerous diseases.
+Once the detection is done, the website immediately sends an email that contains all the information the user may need. 
+In case of disease detection OLIVY will display a red circle on a map, to indicate the spread of each disease and it's severity. 
+And to do so I created the database to store all the coordinates of every infected Tree from the user device. By collecting these information OLIVY can create a comprehensive database of infected areas, it will serve as a valuable resource for other users. We can keep this database public or even private for the government to better plan for all of disease management. 
+More than that, OLIVY monitors changes of the weather depending on the user's location by analyzing data from an open source and generating curves. 
+It detects the degrees of the precipitation and the increase of the temperature levels. Since these are crucial factors for the olive tree health, then it sends an email to the user in case of dry weather or any needed action from his side. And a chatbot that has the ability to not only understand its users but also to precisely diagnose the olive trees by the symptoms description. 
+And now the Drone part comes to play, once the disease is detected the drone will be activated using an autonomous navigation system, without any human involvement ,enabling the drone the execute complex flight missions. this drone can drive safely from its initial position to the pre-save coordinates 
+A 1 Meter long drone, will be holding two bottles of liquid fungicides (the disease treatment), the first  contains 3% of copper containing fungicide like Bordeaux mixture copper sulfate (CuSO4) and 97% water and the second will contain 10% of calcium hydroxide(Ca(OH)2) , and 90% of water (H2O).  2 Littres per bottle, total of 4 litters and four brushless motors each providing 2.5 thrust, the Drone will be able to hold up to five kilograms safely and 11 lithium cells each providing 3.7V,. This drone will not only drive safely but will also locate the exact position of the trunk of the disease tree after detecting the tree using an AI image segmentation model, specifically isolating the third-lowest section of the tree to accurately determine the location of the trunk. 
+Then it will align itself perfectly with the targeted tree and it will spray its lower part. 
+And to enhance the efficiency of our drone I start developing the idea of a refilling and a charger device located on the ground. 
+THANK U FOR UR ATTENTION.

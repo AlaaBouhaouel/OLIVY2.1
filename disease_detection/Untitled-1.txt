@@ -1,0 +1,21 @@
+
+# Importing required libraries
+import torch
+from PIL import Image
+
+# Load the pre-trained segmentation model
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt', force_reload=True)
+
+# Define a function to perform inference on an image
+def segment_image(image_path):
+    # Load image
+    img = Image.open(image_path)
+    
+    # Perform inference
+    results = model(img)
+    
+    # Show results
+    results.show()
+
+# Test the segmentation model on an image
+segment_image('path_to_your_image.jpg')
