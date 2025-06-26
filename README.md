@@ -82,19 +82,21 @@ It outlines all folders, code files, models, and data components in this reposit
 
 ---
 <p align="center">
-  <img src="images/screenshot1.png" width="200"/>
-  <img src="images/screenshot2.png" width="200"/>
-  <img src="images/screenshot3.png" width="200"/>
+  <img src="test_images/screenshot1.png" width="200"/>
+  <img src="test_images/screenshot2.png" width="200"/>
+  <img src="test_images/screenshot3.png" width="200"/>
 </p>
 <p align="center">
-  <img src="images/screenshot4.png" width="200"/>
-  <img src="images/screenshot5.png" width="200"/>
-  <img src="images/screenshot6.png" width="200"/>
+  <img src="test_images/screenshot4.png" width="200"/>
+  <img src="test_images/screenshot5.png" width="200"/>
+  <img src="test_images/screenshot6.png" width="200"/>
 </p>
 <p align="center">
-  <img src="images/screenshot7.png" width="200"/>
-  <img src="images/screenshot8.png" width="200"/>
-  <img src="images/screenshot9.png" width="200"/>
+  <img src="test_images/screenshot7.png" width="200"/>
+  <img src="test_images/screenshot8.png" width="200"/>
+  <img src="test_images/screenshot9.png" width="200"/>
+
+  
 ---
 ## 📌 Project Requirements
 📄 [requirements.txt](requirements.txt)
