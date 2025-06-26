@@ -1,3 +1,5 @@
+![OLIVY Banner](banner.png)
+
 # 🌿 OLIVY – AI-Powered Olive Disease Detection and Autonomous Treatment System
 
 **OLIVY** is a multi-platform AI system designed to detect olive tree diseases and autonomously treat infected trees using an intelligent drone system. The project addresses urgent agricultural challenges in Tunisia and the Mediterranean by integrating computer vision, machine learning, drone technology, and geographical data visualization.
