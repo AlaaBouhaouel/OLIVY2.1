@@ -10,6 +10,7 @@
 - 🏆 Awarded a **Special Prize by Mawhiba**
 - 🛰 Combines **AI-based leaf analysis** with **autonomous drone navigation** for treatment
 - 🗺 Features **interactive mapping**, **weather-based irrigation alerts**, and **data-driven decision-making**
+  
 -🧠 Built With:
 
   **Languages & Frameworks**  
