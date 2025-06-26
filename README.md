@@ -1,4 +1,3 @@
-![OLIVY Banner](banner.png)
 
 # 🌿 OLIVY – AI-Powered Olive Disease Detection and Autonomous Treatment System
 
