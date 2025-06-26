@@ -73,6 +73,11 @@ It outlines all folders, code files, models, and data components in this reposit
 - Integrated **weather and climate data** for adaptive treatment strategies
 
 ---
+## 📌 Project Requirements
+📄 [requirements.txt](requirements.txt)
+
+---
+
 
 ## 🧪 Future Work
 
