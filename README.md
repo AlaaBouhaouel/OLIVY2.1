@@ -102,7 +102,7 @@ This project is shared for educational and research purposes. Please contact the
 ## 👩‍🔬 Author
 
 **Ala Bouhaouel**  
-ISEF 2024 Special Award Winner | AI & ML Enthusiast  
+STEM researcher internationally awarded for AI-driven innovations | AI & ML Enthusiast
 📫 Email: ellabouhawel@gmail.com  
 GitHub: [github.com/ala-bouhaouel](https://github.com/ala-bouhaouel)
 
