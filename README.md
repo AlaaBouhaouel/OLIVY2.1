@@ -81,6 +81,8 @@ It outlines all folders, code files, models, and data components in this reposit
 - Integrated **weather and climate data** for adaptive treatment strategies
 
 ---
+## 📌 Screenshots
+
 <p align="center">
   <img src="test_images/screenshot1.png" width="200"/>
   <img src="test_images/screenshot2.png" width="200"/>
@@ -94,7 +96,6 @@ It outlines all folders, code files, models, and data components in this reposit
 <p align="center">
   <img src="test_images/screenshot7.png" width="200"/>
   <img src="test_images/screenshot8.png" width="200"/>
-  <img src="test_images/screenshot9.png" width="200"/>
 
   
 ---
